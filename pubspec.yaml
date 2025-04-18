@@ -52,6 +52,7 @@ dependencies:
   vimeo_video_player: ^1.0.1
   # uTube video player support
   youtube_player_flutter: ^9.1.1
+  flutter_native_splash: ^2.4.6
 
 
 dev_dependencies:
@@ -82,6 +83,13 @@ flutter:
   assets:
     - assets/illustration/
     - assets/animations/
+
+flutter_native_splash:
+  color: '#9683EC'
+  image: 'assets/illustration/student_illustartion.png'
+  android: true
+  ios: true
+  web: false
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

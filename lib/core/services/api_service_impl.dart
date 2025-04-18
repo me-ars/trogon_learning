@@ -20,7 +20,7 @@ class ApiServiceImpl extends ApiService {
         throw ApiExceptions(message: 'Failed to load data: ${response.statusCode}',error:response.statusCode.toString() );
       }
     } catch (e) {
-      throw ApiExceptions(message: 'Network error: $e',error: e.toString());
+      throw ApiExceptions(message: 'error: $e',error: e.toString());
     }
   }
 }

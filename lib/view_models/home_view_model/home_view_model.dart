@@ -29,6 +29,7 @@ class HomeViewModel extends BaseViewModel {
         setViewState(viewState: ViewState.empty);
       }
     } catch (e) {
+      print(e);
       showException(
         error: e,
         retryMethod: () {

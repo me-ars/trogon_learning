@@ -84,13 +84,6 @@ flutter:
     - assets/illustration/
     - assets/animations/
 
-flutter_native_splash:
-  color: '#9683EC'
-  image: 'assets/illustration/student_illustartion.png'
-  android: true
-  ios: true
-  web: false
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
